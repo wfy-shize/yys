@@ -1,0 +1,836 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Microsoft Yahei';
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+}
+.wy_top_content a:hover{
+    text-decoration:none;
+    color: rgb(188,46,46) ;
+    border-bottom: 3px solid rgb(188,46,46);
+    background: -ms-linear-gradient(top, #F3F3F3,  #fff);        /* IE 10 */
+    background:-moz-linear-gradient(top,#F3F3F3,#fff);          /*火狐*/
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#F3F3F3), to(#fff));  /*谷歌*/
+}
+ul{
+    list-style: none;
+}
+.wy_top{
+    height: 55px;
+    position: relative;
+}
+.wy_top a{
+    line-height: 52px;
+    font-size: 12px;
+    color: black;
+    display: block;
+    float: left;
+    height:55px;
+    padding: 0 12px;
+    font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+}
+.wy_top_content{
+    position: absolute;
+    right: 8%;
+}
+.top_logo{
+    width: 133px;
+    position: absolute;
+    margin-top: 5px;
+    left: 15.5%;
+    height: 50px;
+    background: url("../../public/images/index/logo_b5525b7.png") no-repeat;
+}
+#in_exchange{
+    position: absolute;
+    top:0;
+}
+#in_exchange2,#in_exchange3{
+    opacity:0;
+}
+.wy_top_exchange{
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 55px;
+    width: 100px;
+}
+.wy_down_content{
+    background: rgb(255,255,255);
+    opacity: 0.9;
+    position: absolute;
+    left:15.5%;
+    top:55px;
+    width: 1000px;
+    height: 450px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.wy_down_content a:hover{
+    text-decoration: none;
+    color: #bc2e2e;
+}
+.computerGame{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+}
+.gameHelp{
+    width: 150px;
+    height: 450px;
+    position: absolute;
+    border: 1px solid #eee;
+    background: white;
+    right: 0;
+}
+.wy_down_head{
+    line-height: 39px;
+    color: #bc2e2e;
+    font-weight: 700;
+    font-size: 14px;
+    text-indent: 20px;
+    background: #f7f7f8;
+}
+.wy_down_body{
+    padding-left: 14px;
+}
+.wy_down_content_p{
+    margin: 6px 0 3px 6px;
+    line-height: 24px;
+    width: 150px;
+    font-weight: 700;
+    color: #626262;
+    font-size: 12px;
+}
+.wy_down_content_ul{
+    float: left;
+}
+.wy_down_content_ul li{
+    width: 105px;
+    display: block;
+    margin-left: 6px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.wy_down_content_ul li a{
+    color: #626262;
+    display: block;
+}
+.first_game,.hot_game,.new_game{
+    background: url("../../public/images/index/sprite-w_7fc7459.png") no-repeat;
+}
+.first_game{
+    background-position: right -267px;
+}
+.hot_game{
+    background-position: right -144px;
+}
+.new_game{
+    background-position: right -206px;
+}
+.phoneGame{
+    position: absolute;
+    width: 823px;
+    height: 450px;
+    left: 250px;
+    background: white;
+    border-left:1px solid #eee;
+}
+.phoneGame_left{
+    width:143px;
+    float: left;
+}
+.phoneGame_right{
+    width: 651px;
+    float: left;
+    border-left:1px solid #eee;
+    height: 420px;
+}
+#moreGame{
+    width: 30px;
+    height: 95px;
+    display: block;
+    position: absolute;
+    left: -31px;
+    top: 166px;
+    font-size: 12px;
+    color: #fff;
+    background: #bc2e2e;
+    padding-left: 10px;
+    line-height: 14px;
+    padding-top: 7px;
+    text-decoration: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.main{
+    width: 100%;
+    position: relative;
+    background: black;
+    overflow: hidden;
+    background: url("../../public/images/index/main_banner_fc0d30b.jpg") -260px 0 no-repeat;
+
+    height: 4000px;
+}
+.top_nav{
+    height: 100px;
+    padding-top: 100px;
+    z-index: 8;
+    position: relative;
+    transition:0.5s ease;
+}
+.bg_color{
+    background: rgba(255,255,255,.9);
+    transition:0.5s ease;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(255,255,255,.9);
+    transition: background .5s ease;
+}
+.top_nav_ul{
+    margin-top: 17px;
+    position: absolute;
+    z-index: 8;
+    right: 0;
+    top: 0;
+}
+.top_nav_ul li{
+    margin-left: -6px;
+    width: 110px;
+    display: inline-block;
+    position:relative;
+}
+.top_nav_ul li a{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 65px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.5s;
+}
+.arrow{
+    width: 0;
+    height: 0;
+    opacity: 0;
+    border-bottom: 10px solid #e1ebeb;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -16px;
+}
+.top_nav_ul li span{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 15px;
+    height: 24px;
+   background: url("../../public/images/index/index_z_36461a1.png") -1507px -219px no-repeat;
+}
+.top_nav_ul li a:hover{
+    text-decoration: none;
+    color: #cc4336;
+    transition: all 0.5s;
+}
+.top_nav_erweima{
+    width: 360px;
+    padding-top: 13px;
+    padding-left: 15px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.show{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.top_nav_p{
+    float: left;
+    width: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #000;
+    margin-top: 3px;
+    margin-right: 10px;
+    font-family: 'Microsoft Yahei';
+}
+.top_nav_erweima_a{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    width: 231px;
+    height: 72px;
+    padding-left: 15px;
+    border-left: 1px solid #ccc;
+}
+.top_nav_logo{
+    display: block;
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    background: url("../../public/images/index/index_z_36461a1.png") -1280px -1102px no-repeat;
+}
+.gameName{
+    color: #333;
+    font-size: 32px;
+    font-weight: 700;
+    position: absolute;
+    top: -14px;
+    right: 32px;
+}
+.top_nav_erweima_a_p{
+    color: #333;
+    font-size: 16px;
+    position: absolute;
+    top: 44px;
+    right: 0;
+}
+.top_nav_down{
+    width: 100%;
+    background: #e1ebeb;
+    position: absolute;
+    box-sizing:border-box;
+    top: 100px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+}
+.downShow{
+    height: 200px;
+    transition: all 0.35s;
+}
+#cosDown,#offDown{
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    height: 200px;
+}
+.tongren{
+    margin-top: 33px;
+    display: block;
+    float: right;
+    width: 215px;
+    height: 104px;
+    border-left: 1px solid #c8d0d0;
+    position: relative;
+    transition: all 0.5s;
+}
+.tongren:hover{
+    text-decoration: none;
+}
+.picdiv{
+    display: block;
+    transition: all 0.5s;
+}
+.upAnm{
+    margin-top: -20px;
+    transition: all 0.5s;
+}
+.tongren_pic{
+    display: block;
+    width: 65px;
+    height: 71px;
+    background: url("../../public/images/index/index_z_36461a1.png") -1022px -828px no-repeat;
+}
+.tongren_font{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.noborder{
+    border:0;
+}
+.qqGourp{
+    float: right;
+    width: 370px;
+    height: 104px;
+    padding-left: 50px;
+    margin-top: 33px;
+    border-left: 1px solid #c8d0d0;
+}
+.qq{
+    float: left;
+    color: #666;
+    font-size: 12px;
+    width: 153px;
+    line-height: 25px;
+}
+.qqGourp p{
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+}
+.offWay_content:hover{
+    text-decoration: none;
+}
+.offWay_content{
+    margin-top: 33px;
+    float: right;
+    width: 222px;
+    height: 104px;
+    position: relative;
+    border-left: 1px solid #c8d0d0;
+}
+.offWay_content img{
+    display: block;
+    width: 84px;
+    height: 84px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    margin: auto;
+}
+.offWay_content p{
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+}
+.gameLogo_Name{
+    position: absolute;
+    z-index: 8;
+    width: 70px;
+    height: 199px;
+    left: 50px;
+    top: 38px;
+    transition: all .5s linear;
+}
+.gameLogo_Name span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../../public/images/index/logo_7920691.png") 0 0 no-repeat;
+}
+.gameLogo_Name_show{
+     transform: scale(0);
+     opacity: 0;
+ }
+.gameLogo_Name_left{
+    left: 0;
+    opacity: 0;
+}
+.main_banner {
+    width: 100%;
+    position: absolute;
+    top:0;
+    height: 585px;
+}
+.shantu{
+    position: absolute;
+    z-index: 10;
+    width: 135px;
+    height: 118px;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -505px;
+}
+.role_div{
+    width: 90%;
+    height: 100%;
+    right: 0;
+    margin-left: -600px;
+    position: absolute;
+}
+.con{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.con_slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.con_slide span{
+    position: absolute;
+}
+.role_1{
+    left:68px;
+    opacity: 0;
+}
+.role_2{
+    left:366px;
+    opacity: 0;
+}
+.role_3{
+    left:48px;
+    opacity: 0;
+}
+.role_4{
+    left:288px;
+    opacity: 0;
+}
+@keyframes role_anim1 {
+    0%{
+        left:190px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes role_anim2 {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        left:190px;
+        opacity: 0;
+    }
+}
+
+.role_active1 span{
+   animation:role_anim1 .7s linear;
+    opacity: 1;
+}
+.role_active2 span{
+    animation:role_anim2 .7s linear;
+    opacity: 0;
+}
+.role_next{
+    width: 41px;
+    height: 66px;
+    position: absolute;
+    right: 20%;
+    top: 290px;
+    z-index: 2;
+    transition: all .6s ease-out 1s;
+    background:url("../../public/images/index/index_z_36461a1.png") -624px -362px no-repeat;
+}
+
+
+
+.server_area{
+    width: 100%;
+    height: 100%;
+    background: url("../../public/images/index/white_mask_a704d48.png") repeat;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: all .4s;
+}
+.toSmall{
+    width: 0;
+    height: 0;
+    left: 10%;
+    top:100%;
+    opacity: 0;
+    transform: scale(0);
+    transition: all .7s;
+}
+.area_bg{
+    position: absolute;
+    width: 1399px;
+    height: 724px;
+    left: 50%;
+    margin-left: -814px;
+    top: 50%;
+    margin-top: -410px;
+    background: url("../../public/images/index/pop_bg_3721a5a.png") 0 0 no-repeat;
+}
+.xXxX{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 100px;
+    right: 0;
+    z-index: 2;
+    background: url("../../public/images/index/index_z_36461a1.png") -1486px -51px no-repeat;
+    transition: 0.8s;
+}
+.rot{
+    transform: rotate(180deg);
+}
+.shantu:hover{
+    opacity: 0.7;
+}
+.all_area{
+    height: 588px;
+    width: 1068px;
+    padding: 15px 0 0 50px;
+    position: absolute;
+    top: 100px;
+    left: 283px;
+    box-sizing:border-box;
+}
+.ios_areas{
+    width: 246px;
+    float: left;
+}
+.area_title{
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.all_name{
+    color: #000;
+    line-height: 32px;
+    border-bottom: 1px dotted #333;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 0;
+}
+.all_name_fang{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    bottom: -2px;
+    left: 1px;
+    background: #333;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.area_list{
+    height: 485px;
+    padding-left: 20px;
+    margin-left: 4px;
+    padding-top: 10px;
+    border-left: 1px solid #c3c3c3;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+    box-sizing: border-box;
+}
+.area_list_li{
+    float: left;
+    width: 85px;
+    height: 102px;
+    margin-right: 15px;
+    position: relative;
+}
+.new{
+    background:url("../../public/images/index/index_z_36461a1.png") -1353px -51px no-repeat;
+    position: absolute;
+    top: 7px;
+    left: -5px;
+    display: block;
+    width: 26px;
+    height: 50px;
+}
+.hot{
+    background:url("../../public/images/index/index_z_36461a1.png") -1379px -51px no-repeat;
+    position: absolute;
+    top: 7px;
+    left: -5px;
+    display: block;
+    width: 26px;
+    height: 50px;
+}
+.icon{
+    background:url("../../public/images/index/index_z_36461a1.png") -80px -1262px no-repeat;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+}
+.server_name{
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+}
+.other_area{
+    float: left;
+    width: 130px;
+}
+.pop_title{
+    float: right;
+    width: 127px;
+    height: 362px;
+    margin-right: -5px;
+    background:url("../../public/images/index/index_z_36461a1.png") 0px 0px ;
+}
+.lianyun{
+    height: 261px;
+    padding-left: 20px;
+    margin-left: 4px;
+    padding-top: 10px;
+    border-left: 1px solid #c3c3c3;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.guoji{
+    margin-top: 0;
+    height: 194px;
+    padding-top: 0;
+    padding-left: 20px;
+    margin-left: 4px;
+    border-left: 1px solid #c3c3c3;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.area_erweima{
+    position: absolute;
+    width: 256px;
+    height: 177px;
+    bottom: -35px;
+    right: -130px;
+    background: url("../../public/images/index/index_z_36461a1.png") -695px -189px;
+}
+.announce{
+    position: absolute;
+    width: 95px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: #c9b27c;
+    border-radius: 5px;
+    right: 0px;
+    bottom: 152px;
+}
+.announce:hover{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(233,206,143);
+}
+.download{
+    position: absolute;
+    width: 390px;
+    height: 123px;
+    top: 462px;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -148px;
+    z-index: 4;
+}
+.gameDate{
+    z-index: 4;
+    position: absolute;
+    width: 520px;
+    left: 50%;
+    height: 1181px;
+    margin-left: 242px;
+    background: url("../../public/images/index/side_bg_4a64d47.png") bottom left no-repeat;
+    top: 345px;
+}
+.download_div{
+    width: 100%;
+    height: 100%;
+    background: #fccc00;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 0 7px 4px #feeb00 inset;
+}
+.download_open{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.closer_botten{
+    margin-right: 10px;
+    float: left;
+    width: 22px;
+    height: 23px;
+    background:url("../../public/images/index/index_z_36461a1.png")-1492px -346px no-repeat;
+}
+.download_text{
+    margin-right: 10px;
+    float: left;
+    width: 45px;
+    height: 100px;
+    background: url("../../public/images/index/index_z_36461a1.png") -1289px -283px no-repeat;
+}
+.download_erweima{
+    float: left;
+    width: 107px;
+    height: 107px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    position: relative;
+}
+.doline{
+    top: 0;
+    left: 0;
+    position: absolute;
+    animation: mainbarcode 2.5s linear infinite;
+}
+@keyframes mainbarcode {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: 86%;
+        left: 0;
+    }
+}
+.download_way{
+    float: left;
+    width: 175px;
+    height: 120px;
+    margin-left: 6px;
+}
+.ios_download,.android_download{
+    display: block;
+    margin-bottom: 5px;
+    width: 171px;
+    height: 51px;
+    background: url("../../public/images/index/index_z_36461a1.png") no-repeat;
+}
+.ios_download{
+    background-position: -243px -302px;
+}
+.android_download{
+    background-position: -1101px -1262px;
+}
+.ios_download:hover{
+    background-position: -930px -1262px;
+}
+.android_download:hover{
+    background-position: -1353px 0px;
+}
+.download_close{
+    padding: 10px;
+}
+.download_close a {
+    width: 22px;
+    height: 105px;
+    display: block;
+    background:url("../../public/images/index/index_z_36461a1.png") -1329px -145px no-repeat;
+    float: left;
+}
+
+
+
+
+
+

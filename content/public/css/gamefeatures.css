@@ -1,0 +1,1924 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+   list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #080915;
+    z-index: 100;
+}
+
+.header_top{
+    width: 100%;
+    height: 65px;
+    position: relative;
+}
+
+.header_top ul{
+    float: left;
+    width: 990px;
+    margin-left: 100px;
+}
+
+.header_top ul li{
+    float: left;
+    width: 164px;
+    height: 33px;
+}
+
+.header_top ul li a{
+    border-right: 1px dotted #8282bd;
+    display: block;
+    height: 26px;
+    padding-top: 7px;
+    position: relative;
+    width: 100%
+}
+
+#header_a{
+    border-right: 0px dotted #8282bd;
+    display: block;
+    height: 26px;
+    padding-top: 7px;
+    position: relative;
+    width: 100%
+}
+
+.header_top ul li a em{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") no-repeat -816px -51px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 5px;
+    left: 28px;
+}
+#emshow{
+    opacity: 1;
+    visibility: visible;
+}
+
+.title{
+    display: block;
+    height: 21px;
+    margin: 0 auto;
+    margin-right: 38px;
+}
+
+.title1{
+    display: block;
+    height: 21px;
+    margin: 0 auto;
+}
+
+.span1{
+    width: 37px;
+    background: url("../../public/images/game_features/tab1_h_c0e8088.png") no-repeat;
+}
+.span2{
+    width: 80px;
+    background: url("../../public/images/game_features/tab2_3945481.png") no-repeat;
+}
+.span3{
+    width: 80px;
+    background: url("../../public/images/game_features/tab3_ce6b0f0.png") no-repeat;
+}
+.span4{
+    width: 80px;
+    background: url("../../public/images/game_features/tab4_a950d57.png") no-repeat;
+}
+.span5{
+    width: 80px;
+    background: url("../../public/images/game_features/tab5_1fc5784.png") no-repeat;
+}
+.span6{
+    width: 80px;
+    background: url("../../public/images/game_features/tab6_41c907d.png") no-repeat;
+}
+
+.span2:hover{
+    width: 80px;
+    background: url("../../public/images/game_features/tab2_h_3b84417.png") no-repeat;
+}
+.span3:hover{
+    width: 80px;
+    background: url("../../public/images/game_features/tab3_h_ce262de.png") no-repeat;
+}
+.span4:hover{
+    width: 80px;
+    background: url("../../public/images/game_features/tab4_h_2f6c668.png") no-repeat;
+}
+.span5:hover{
+    width: 80px;
+    background: url("../../public/images/game_features/tab5_h_0777031.png") no-repeat;
+}
+.span6:hover{
+    width: 80px;
+    background: url("../../public/images/game_features/tab6_h_e72b271.png") no-repeat;
+}
+
+#gfl{
+    float: left;
+    right: 5px;
+    width: 231px;
+    height: 34px;
+    background: url("../../public/images/game_features/gzh_bg_7a090c1.png") no-repeat;
+    margin-top: 18px;
+    position: absolute;
+    right: 5px;
+    top:0px;
+}
+.gf1{
+    color: #fff;
+    font-size: 14px;
+    line-height: 34px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 3px;
+}
+
+.qq{
+    margin-top: 4px;
+    margin-right: 3px;
+    float: left;
+    width: 25px;
+    height: 29px;
+    position: relative;
+    display: inline-block;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -784px -150px no-repeat;
+}
+.gf_qq{
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: -108px;
+    width: 167px;
+    height: 129px;
+    background: #ca1545;
+    border-radius: 5px;
+}
+.gf_qq h3{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+#gfl .gf_qq p{
+    color: #fff;
+    display: block;
+    padding: 0;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wx{
+    margin-top: 4px;
+    margin-right: 3px;
+    float: left;
+    width: 25px;
+    height: 29px;
+    position: relative;
+    display: inline-block;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -881px -51px no-repeat;
+}
+.gf_wx{
+    display: none;
+    position: absolute;
+    top:28px;
+    left: -138px;
+    width: 220px;
+    background: #ca1545;
+    border-radius: 5px;
+}
+.gf_wx img{
+    float: left;
+    width: 67px;
+    height: 67px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.rwm{
+    float: left;
+    width: 121px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 15px;
+}
+.rwm strong{
+    font-size: 16px;
+    margin-left: 5px;
+}
+.rwm p{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.wx:hover{
+    margin-right: 0px;
+    width: 30px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -768px -94px no-repeat;
+}
+.qq:hover{
+    margin-right: 0px;
+    width: 30px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -736px -94px no-repeat;
+}
+.wb{
+    margin-top: 4px;
+    margin-right: 3px;
+    float: left;
+    width: 25px;
+    height: 24px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -759px -150px no-repeat;
+}
+.tieb{
+    margin-top: 4px;
+    float: left;
+    width: 25px;
+    height: 24px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -862px -124px no-repeat;
+}
+
+.one_body{
+    width: 100%;
+    height: 912px;
+    position:relative;
+    background: url("../../public/images/game_features/bg1_651c270.jpg") -300px 0 no-repeat;
+}
+.door{
+    -webkit-transition: transform 0.5s 0.5s ease-out;
+    -moz-transition: transform 0.5s 0.5s ease-out;
+    transition: transform 0.5s 0.5s ease-out;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 912px;
+}
+.door1{
+                         /* 位移*/
+    -webkit-transform: translate(100%,0);
+    -moz-transform: translate(100%,0);
+    background: rgba(0, 0, 0, 0) url("../../public/images/game_features/door1_2b58326.jpg") -285px 0 no-repeat;
+    right: 50%;
+    transform: translate(-100%, 0px);
+}
+.door2{
+                       /* 位移*/
+    -webkit-transform: translate(-100%,0);
+    -moz-transform: translate(-100%,0);
+    background: rgba(0, 0, 0, 0) url("../../public/images/game_features/door2_ae041a0.jpg") no-repeat;
+    left: 50%;
+    transform: translate(100%, 0px);
+}
+
+.person{
+    width: 100%;
+    height: 912px;
+    background: url("../../public/images/game_features/person_b924fab.png") no-repeat;
+    position: absolute;
+    top:15px;
+    left: 0px;
+    opacity: 0;
+}
+.cloud1{
+    position: absolute;
+    top: 530px;
+    left: 0px;
+    width: 397px;
+    height: 116px;
+}
+.flowers1{
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    width: 100%;
+    height: 863px;
+}
+.flowers2{
+    position: absolute;
+    top: 43px;
+    left: 0px;
+    width: 100%;
+    height: 780px;
+}
+.logo{
+    position: absolute;
+    top: 74px;
+    left: 0px;
+    width: 79px;
+    height: 260px;
+}
+.tu_pian{
+    position: absolute;
+    top:540px;
+    left: 0px;
+    width: 100%;
+    height: 132px;
+    opacity: 0;
+    background: url("../../public/images/game_features/slogon_8064a10.png") 333px 0 no-repeat;
+}
+.tu_pian a{
+    position: absolute;
+    top:18px;
+    left:700px;
+    width: 65px;
+    height: 65px;
+}
+
+.em_big{
+    display: block;
+    width: 63px;
+    height: 65px;
+                         /*无限循环   交替 */
+    animation: big 0.7s infinite alternate linear;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -560px -606px no-repeat;
+}
+
+@-webkit-keyframes big {
+    0%{
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100%{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+.sp_big{
+    display: block;
+    width: 13px;
+    height: 21px;
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -871px -150px no-repeat;
+}
+.download{
+    position: absolute;
+    opacity: 0;
+    top:726px;
+    left: 580px;
+    width: 301px;
+    height: 135px;
+    background: url("../../public/images/game_features/download_bg_38d204a.png") no-repeat;
+}
+.ewm_download{
+    float: left;
+    width: 111px;
+    height: 111px;
+    overflow: hidden;
+    position: relative;
+    background: url("../../public/images/game_features/wx_22dea84.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+.ewm_download span{
+    width: 102px;
+    height: 12px;
+    position: absolute;
+    top:2px;
+    left: 2px;
+    animation: lines 1s infinite alternate linear;
+    background: url("../../public/images/game_features/line_55681cf.png") no-repeat;
+    background-size: cover;
+}
+@-webkit-keyframes lines {
+    0%{
+        top:2px;
+    }
+    100%{
+        top:95px;
+    }
+}
+.app_download{
+    float: left;
+    display: block;
+    width: 171px;
+    height: 51px;
+    margin-left: 5px;
+    margin-top: 12px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -142px -676px no-repeat;
+}
+.az_download{
+    float: left;
+    display: block;
+    width: 171px;
+    height: 51px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -484px -676px no-repeat;
+}
+.app_download:hover{
+    background-position: -313px -676px;
+}
+.az_download:hover{
+    background-position: -734px 0;
+}
+
+
+.two_body{
+    width: 100%;
+    height: 841px;
+    padding-top: 50px;
+    position: relative;
+    background: url("../../public/images/game_features/juqing_bg_02c1c18.jpg") no-repeat;
+}
+.two_body h2{
+    width: 531px;
+    height: 98px;
+    margin: 0 auto 58px;
+    animation: jq 1s ease-out;
+    background: url("../../public/images/game_features/title1_2b782f6.png") no-repeat;
+}
+@-webkit-keyframes jq {
+    0%{
+        transform: translate(0,300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+
+
+.jq_title,.meishu_title,.yinyue_title,.wanfa_title{
+    width: 116px;
+    height: 253px;
+    position: absolute;
+    top:319px;
+    left: -2px;
+}
+.jq_title{
+    background: url("../../public/images/game_features/side_juqing_0b1b064.png") no-repeat;
+}
+.meishu_title{
+    background: url("../../public/images/game_features/side_meishu_df8387a.png") no-repeat;
+}
+.yinyue_title{
+    background: url("../../public/images/game_features/side_cv_209e020.png") no-repeat;
+}
+.wanfa_title{
+    background: url("../../public/images/game_features/side_wanfa_fb6d05a.png") no-repeat;
+}
+.span_world,.span_jietu,.span_shengyou,.span_wanfa{
+    position: absolute;
+    top:10px;
+    left: 0;
+    width: 100px;
+    height: 102px;
+    opacity: 1;
+    transition:all 0.3s linear;
+}
+.span_world{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -321px 1px no-repeat;
+}
+.span_jietu{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -101px -253px no-repeat;
+}
+.span_shengyou{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -321px -102px no-repeat;
+}
+.span_wanfa{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") 0px -253px no-repeat;
+}
+.span_zj,.span_yuanhua,.span_zhenrong,.span_tansuo{
+    position: absolute;
+    top:68px;
+    left: 23px;
+    width: 92px;
+    height: 115px;
+    opacity: 0;
+    transition:all 0.3s linear;
+}
+.span_zj{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -184px -137px no-repeat;
+}
+.span_yuanhua{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -92px -137px no-repeat;
+}
+.span_zhenrong{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") 0px -137px no-repeat;
+}
+.span_tansuo{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -229px 0px no-repeat;
+}
+.span_wtj,.span_tongren,.span_peiyue,.span_zhinan{
+    position: absolute;
+    top:138px;
+    left: 0px;
+    width: 100px;
+    height: 102px;
+    opacity: 0;
+    transition:all 0.3s linear;
+}
+.span_wtj{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -304px -253px no-repeat;
+}
+.span_tongren{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -202px -253px no-repeat;
+}
+.span_peiyue{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -422px -101px no-repeat;
+}
+.span_zhinan{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -422px 0px no-repeat;
+}
+
+.jq_1,.jq_2,.jq_3,.meishu_1,.meishu_2,.meishu_3,.yinyue_1,.yinyue_2,.yinyue_3,.wanfa_1,.wanfa_2,.wanfa_3{
+    position: relative;
+    top:0px;
+    left: 166px;
+    width: 1156px;
+    height: 560px;
+    animation: wd 1s ease-out;
+}
+
+@-webkit-keyframes wd {
+    0%{
+        transform: translate(0,300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+.wd_left{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 730px;
+    height: 100%;
+}
+.wd_left_side{
+    float: left;
+    width: 700px;
+    height: 376px;
+    position: relative;
+    background: url("../../public/images/game_features/shijieguan_video_bg_d2deb38.jpg") no-repeat;
+}
+.wd_span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../../public/images/game_features/mask_6b7d844.png") repeat;
+}
+.wd_a{
+    position: absolute;
+    top:155px;
+    left: 320px;
+}
+.wd_left_text{
+    float: left;
+    width: 710px;
+    height: 149px;
+    margin-top: 20px;
+    background: url("../../public/images/game_features/shijiehuan_txt_e88a42e.png") -6px 0 no-repeat;
+}
+.wd_left_text p{
+    font-size: 14px;
+    color: #34241c;
+    line-height: 24px;
+    padding: 15px;
+}
+
+.wd_img{
+    width: 490px;
+    height: 727px;
+    position: absolute;
+    top:-88px;
+    right: 20px;
+}
+
+.zj_title,.tr_title,.yinyue1_title{
+    width: 100%;
+    height: 106px;
+    position: relative;
+}
+.tit_zj,.tr_cos,.yinyue1_zj{
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 350px;
+    width: 152px;
+    height: 56px;
+    color: #feeecf;
+    font-size: 24px;
+    line-height: 53px;
+    background: url("../../public/images/game_features/zj_icon_b690ee2.png") no-repeat;
+    text-align: center;
+}
+.tit_shishen,.tr_trhui,.yinyue1_shishen{
+    display: block;
+    width: 152px;
+    height: 56px;
+    position: absolute;
+    top:0px;
+    left: 530px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 53px;
+    color: #feeecf;
+    background: url("../../public/images/game_features/zj_icon_b690ee2.png") no-repeat;
+}
+.tit_shishen:hover,.tit_zj:hover,.tr_cos:hover,.tr_trhui:hover,.yinyue1_shishen:hover,.yinyue1_zj:hover{
+    color: #a8813c;
+    background: url("../../public/images/game_features/zj_icon_ac_72c4a97.png") no-repeat;
+}
+.active_zj{
+    color: #a8813c;
+    background: url("../../public/images/game_features/zj_icon_ac_72c4a97.png") no-repeat;
+}
+
+.zj,.shishen{
+    height: 434px;
+    width: 100%;
+}
+.zj_con{
+    width: 283px;
+    height: 434px;
+    float: left;
+    position: relative;
+    margin-right: 5px;
+    background: url("../../public/images/game_features/card_bg_fc91a47.png") no-repeat;
+    overflow: hidden;
+}
+.zj_con img{
+    display: block;
+    margin: 14px auto;
+    width: 254px;
+    height: 406px;
+}
+.zj_name{
+    position: absolute;
+    top:20px;
+    left: 30px;
+    width: 29px;
+    height: 152px;
+    background: url("../../public/images/game_features/name_bg_d35ef8e.png") no-repeat;
+}
+.zj_name span{
+    display: inline-block;
+    width: 19px;
+    height: 56px;
+    margin-left: 8px;
+    margin-top: 36px;
+    font-size: 14px;
+    color: #35241c;
+    line-height: 15px;
+}
+.zj_name em{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-left: 5px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -795px -175px no-repeat;
+}
+.zj_text{
+    width: 243px;
+    height: 120px;
+    padding: 15px;
+    display: none;
+    background: url("../../public/images/game_features/zj_intro_bg_1580f7e.jpg");
+    animation: zjtext 0.2s ease-out;
+}
+@-webkit-keyframes zjtext {
+    0%{
+        transform: translate(0,150px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+.text_zj1{
+    position: absolute;
+    top:280px;
+    left: 5px;
+}
+.text_zj2{
+    position: absolute;
+    top:340px;
+    left: 5px;
+}
+.text_zj3{
+    position: absolute;
+    top:250px;
+    left: 5px;
+    height: 163px;
+}
+.text_zj4{
+    position: absolute;
+    top:280px;
+    left: 5px;
+}
+.zj_text p{
+    color: #35241c;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.shishen_con{
+    width: 100%;
+    height: 442px;
+    position: relative;
+    overflow: hidden;
+}
+.shishen_ul{
+    position: absolute;
+    left: 0;
+    width: 300%;
+    height: 442px;
+    padding: 0px;
+    margin: 0px;
+    transition:all 0.3s linear;
+}
+.shishen_ul li{
+    float: left;
+    width: 279px;
+    height: 442px;
+    margin-right: 10px;
+    position: relative;
+    background: url("../../public/images/game_features/card_bg2_2330a9b.png") no-repeat;
+}
+.shishen_ul li img{
+    display: block;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.shijie_name{
+    width: 18px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.shijie_name em{
+    position: absolute;
+    top:0px;
+    left: 5px;
+    width: 9px;
+    height: 22px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -888px -124px no-repeat;
+}
+.shijie_name span{
+    position: absolute;
+    top: 26px;
+    left: 3px;
+    color: #35241c;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.shijie_text{
+    width: 270px;
+    height: 73px;
+    position: absolute;
+    left: 8px;
+    bottom: 0px;
+}
+
+.shijie_text h4{
+    margin: 0 auto;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #35241c;
+    font-size: 14px;
+    width: 100px;
+    line-height: 25px;
+    border-bottom: 1px solid #b19e8c;
+}
+.shijie_text a{
+    float: left;
+    display: inline-block;
+    width: 85px;
+    height: 24px;
+    color: #35241c;
+    font-size: 13px;
+    line-height: 24px;
+}
+.shijie_text a img{
+    margin-right: 5px;
+    margin-left: 0px;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 0px;
+}
+
+.shishem_tit{
+    width: 235px;
+    height: 21px;
+    margin: 20px auto 0;
+}
+.shishem_tit span,.jietu_tit span,.yuanhua_tit span,.yy_shishen_tit span{
+    display: block;
+    float: left;
+    width: 21px;
+    height: 21px;
+    top: 17px;
+}
+.shishem_tit_span1,.jietu_tit_prev,.yuanhua_tit_prev,.yy_shishen_span1{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -850px -150px no-repeat;
+}
+.shishem_tit_span1:hover,.jietu_tit_prev:hover,.yuanhua_tit_prev:hover,.yy_shishen_span1:hover{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -884px -150px no-repeat;
+}
+.shishem_tit_span2,.jietu_tit_next,.yuanhua_tit_next,.yy_shishen_span2{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -829px -150px no-repeat;
+}
+.shishem_tit_span2:hover,.jietu_tit_next:hover,.yuanhua_tit_next:hover,.yy_shishen_span2:hover{
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -755px -175px no-repeat;
+}
+.shishem_tit_ul{
+    width: 148px;
+    height: 10px;
+    float: left;
+    margin: 5px 10px 0 10px;
+    padding: 0;
+}
+.shishem_tit_ul li{
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    margin: 2px 6px 0px 6px;
+    float: left;
+    background-color: #6e6c6a;
+
+}
+.shishem_tit_ul .shishem_tit_show{
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 0;
+}
+
+.wtj_1{
+    float: left;
+    width: 538px;
+    height: 538px;
+    margin-right: 40px;
+    background: url("../../public/images/game_features/wutaiju1_6d60e65.png") no-repeat;
+    position: relative;
+}
+.wtj_2{
+    float: left;
+    width: 538px;
+    height: 538px;
+    position: relative;
+    background: url("../../public/images/game_features/wutaiju2_98957a6.png") no-repeat;
+}
+.wtj_a{
+    position: absolute;
+    top:239px;
+    left:239px;
+}
+
+.three_body{
+    width: 100%;
+    height: 841px;
+    padding-top: 50px;
+    position: relative;
+    background: url("../../public/images/game_features/meishu_bg_cdf30f6.jpg") no-repeat;
+}
+.three_body h2{
+    width: 531px;
+    height: 98px;
+    margin: 0 auto 58px;
+    animation: meishu 1s ease-out;
+    background: url("../../public/images/game_features/title2_ef2ebb1.png") no-repeat;
+}
+@-webkit-keyframes meishu {
+    0%{
+        transform: translate(0,300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+.jietu_pic{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 659px;
+    height: 549px;
+    background: url("../../public/images/game_features/pic_wrap_6c7a056.png") no-repeat;
+}
+.jietu_pic h3{
+    font-size: 16px;
+    text-align: center;
+    line-height: 33px;
+    color: #ba9f75;
+    margin-top: 3px;
+    font-weight: 500;
+}
+.jietu_pic_con{
+    width: 599px;
+    height: 387px;
+    position: relative;
+    left: 26px;
+    border: 1px solid #c5baae;
+    box-shadow: 0 2px 3px #635240;
+    overflow: hidden;
+    /*transition: all 0.4s linear;
+    background: url("../../public/images/game_features/ms01s.jpg") 3px 3px no-repeat;*/
+}
+.jietu_pic_img{
+    width: 593px;
+    height: 381px;
+    position: absolute;
+    top:3px;
+    left: 3px;
+    transition: all 0.4s linear;
+    background: url("../../public/images/game_features/ms01s.jpg") no-repeat;
+}
+.jietu_pic_con a{
+    position: absolute;
+    width: 41px;
+    height: 42px;
+    bottom: 10px;
+    right: 10px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -734px -51px no-repeat;
+}
+.jietu_tit{
+    width: 448px;
+    height: 68px;
+    position: absolute;
+    bottom: 5px;
+    left: 106px;
+}
+.jietu_tit span{
+   margin-top: 20px;
+}
+.jietu_tit_con,.yuanhua_tit_con{
+    width: 370px;
+    height: 68px;
+    float: left;
+    margin: 0px 10px 0px 10px;
+    overflow: hidden;
+    position: relative;
+}
+.jietu_tit_ul{
+    margin: 0;
+    padding: 0;
+    width: 200%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s linear;
+}
+.jietu_tit_ul li{
+    float: left;
+    width: 60px;
+    height: 68px;
+    margin: 0 7px;
+}
+.jietu_tit_ul li img{
+    margin: 0;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+}
+.jietu_tit_ul li img:hover{
+    border: 4px solid #ffda68;
+    width: 52px;
+    height: 52px;
+}
+.jietu_tit_ul li .jietu_tit_show{
+    border: 4px solid #ffda68;
+    width: 52px;
+    height: 52px;
+}
+
+
+.jietu_img{
+    width: 517px;
+    height: 681px;
+    position: absolute;
+    top:-50px;
+    right: 10px;
+}
+
+.yuanhua_text{
+    width: 1089px;
+    height: 479px;
+    position: relative;
+    background: url("../../public/images/game_features/yuanhua_bg_f21d143.png") no-repeat;
+}
+.yuanhua_box{
+    width: 1060px;
+    height: 450px;
+    position: absolute;
+    top:14px;
+    left: 14px;
+    overflow: hidden;
+}
+.yuanhua_left{
+    width: 50%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.yuanhua_right{
+    width: 50%;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.yuanhua_box_img{
+    width: 1522px;
+    height: 450px;
+    position: absolute;
+    left: -250px;
+    /*transform: translate3d(-250px, 0px, 0px);*/
+    -webkit-transition: all 0.1s linear;
+    background: url("../../public/images/game_features/21.png") no-repeat;
+}
+
+.yuanhua_tit{
+    width: 448px;
+    height: 100px;
+    position: absolute;
+    bottom: -40px;
+    left: 306px;
+}
+.yuanhua_tit span{
+    margin-top: 25px;
+}
+.yuanhua_tit_con{
+    width: 360px;
+    height: 100px;
+    overflow: hidden;
+}
+.yuanhua_tit_ul{
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    height: 100%;
+    float: left;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s linear;
+}
+.yuanhua_tit_ul li{
+    width: 70px;
+    height: 100px;
+    float: left;
+    margin: 0px 1px 0px 1px;
+    padding: 0;
+}
+.yuanhua_tit_ul li a{
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-bottom: 10px;
+}
+.yuanhua_tit_ul li a b{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url("../../public/images/game_features/index_z_d844bc8.png");
+}
+.yuanhua_b1{
+    background-position: -339px -531px;
+    background-repeat: no-repeat;
+}
+.yuanhua_b1:hover,.yuanhua_b1_active{
+    background-position: -409px -531px;
+}
+.yuanhua_b2{
+    background-position: -479px -531px;
+    background-repeat: no-repeat;
+}
+.yuanhua_b2:hover,.yuanhua_b2_active{
+    background-position: -549px -531px;
+}
+.yuanhua_b3{
+    background-position: 0px -606px;
+    background-repeat: no-repeat;
+}
+.yuanhua_b3:hover,.yuanhua_b3_active{
+    background-position: -70px -606px;
+}
+.yuanhua_b4{
+    background-position: -420px -606px;
+    background-repeat: no-repeat;
+}
+.yuanhua_b4:hover,.yuanhua_b4_active{
+    background-position: -490px -606px;
+}
+.yuanhua_b5{
+    background-position: -59px -531px;
+    background-repeat: no-repeat;
+}
+.yuanhua_b5:hover,.yuanhua_b5_active{
+    background-position: -129px -531px;
+}
+.yuanhua_b6{
+    background-position: -199px -531px;
+    background-repeat: no-repeat;
+}
+.yuanhua_b6:hover,.yuanhua_b6_active{
+    background-position: -269px -531px;
+}
+
+.yuanhua_tit_ul li .yuanhua_span_active{
+    opacity: 1;
+}
+
+.yuanhua_tit_ul li span{
+    margin:0;
+    width: 70px;
+    float: left;
+    color: #ffda68;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0;
+}
+.cosplay,.trhui{
+    width: 100%;
+    height: 510px;
+}
+
+.cosplay_left{
+    width: 425px;
+    height: 100%;
+    float: left;
+    margin-right: 5px;
+}
+.cos1,.cos13{
+    width: 417px;
+    height: 312px;
+    border: 4px solid #d8b991;
+    margin-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.cos2,.cos14{
+    width: 417px;
+    height: 136px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos3,.cos15{
+    float: left;
+    width: 420px;
+    height: 163px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos4,.cos16{
+    float: left;
+    width: 128px;
+    height: 163px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos5,.cos17{
+    float: left;
+    width: 128px;
+    height: 163px;
+    margin-bottom: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos6,.cos18{
+    float: left;
+    width: 273px;
+    height: 136px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos7,.cos19{
+    float: left;
+    width: 122px;
+    height: 136px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos8,.cos20{
+    float: left;
+    width: 280px;
+    height: 136px;
+    margin-bottom: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos9,.cos21{
+    float: left;
+    width: 125px;
+    height: 136px;
+    margin-right: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos10,.cos22{
+    float: left;
+    width: 274px;
+    height: 136px;
+    margin-right: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos11,.cos23{
+    float: left;
+    width: 125px;
+    height: 136px;
+    margin-right: 5px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cos12,.cos24{
+    float: left;
+    width: 125px;
+    height: 136px;
+    border: 4px solid #d8b991;
+    position: relative;
+    overflow: hidden;
+}
+.cosplay_right{
+    width: 710px;
+    height: 100%;
+    float: left;
+}
+.cosplay img{
+    position: absolute;
+}
+.trhui img{
+    position: absolute;
+}
+.cos_hover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+.cos_hover span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../../public/images/game_features/mask_6b7d844.png") repeat;
+}
+.cos_hover em{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -21px;
+    margin-top: -20px;
+    width: 41px;
+    height: 42px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -734px -51px no-repeat;
+}
+.cos_hover p{
+    position: absolute;
+    left: 0px;
+    bottom: -17px;
+    background: #0e0626;
+    color: #fff;
+    line-height: 24px;
+    padding: 8px 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+.four_body{
+    width: 100%;
+    height: 841px;
+    padding-top: 50px;
+    position: relative;
+    background: url("../../public/images/game_features/shengyou_bg_61ae7f9.jpg") no-repeat;
+}
+.four_body h2{
+    width: 579px;
+    height: 98px;
+    margin: 0 auto 58px;
+    animation: yinyue 1s ease-out;
+    background: url("../../public/images/game_features/title4_f471cce.png") no-repeat;
+}
+@-webkit-keyframes yinyue {
+    0%{
+        transform: translate(0,300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+.yy_zj{
+    float: left;
+    width: 283px;
+    height: 434px;
+    margin-right: 5px;
+    background: url("../../public/images/game_features/card_bg_cv_1506b47.png") no-repeat;
+}
+
+.yy_zj_con{
+    width: 283px;
+    height: 342px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.yy_zj_text{
+    width: 270px;
+    height: 46px;
+    padding-left: 13px;
+}
+.yy_zj_con img{
+    padding-left: 15px;
+    padding-top: 14px;
+}
+.yy_zj_text h3{
+    font-size: 16px;
+    color: #34241c;
+    width: 160px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.yy_zj_text h3 em{
+    display: block;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -734px -124px no-repeat;
+}
+.yy_zj_text p{
+    font-size: 14px;
+    width: 254px;
+    line-height: 20px;
+    color: #aba7a5;
+    margin: 0;
+    padding: 0;
+}
+
+.yinyue_zj{
+    width: 100%;
+    height: 475px;
+}
+.yinyue_shishen{
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+    position: relative;
+}
+
+.yy_shishen_con{
+    width: 200%;
+    height: 434px;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s linear;
+}
+.yy_shishen_tit{
+    position: absolute;
+    left: 440px;
+    bottom: 3px;
+    width: 235px;
+    height: 20px;
+}
+.yy_ul{
+    width: 58px;
+}
+.shenyou_left{
+    width: 700px;
+    height: 396px;
+    position: relative;
+    top:80px;
+    left: 0;
+    background: url("../../public/images/game_features/cv_video_bg_9c46b03.jpg") no-repeat;
+}
+.shenyou_bg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../../public/images/game_features/mask_6b7d844.png") repeat;
+}
+.shenyou_a{
+    width: 74px;
+    height: 76px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -38px;
+    margin-left: -37px;
+}
+.shenyou_right{
+    position: absolute;
+    right: -40px;
+    top: -15px;
+    width: 618px;
+    height: 690px;
+    background:url("../../public/images/game_features/cv_side_c45dd55.png") no-repeat;
+}
+.peiyue_left{
+    position: relative;
+    top: 50px;
+    width: 683px;
+    height: 533px;
+    background: url("../../public/images/game_features/mml_bg_79de3b6.png") no-repeat;
+}
+.peiyue_img{
+    float: left;
+    width: 323px;
+    height: 483px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background: url("../../public/images/game_features/mml_8e15f28.png") no-repeat;
+}
+.peiyue_text{
+    float: left;
+    width: 306px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+.peiyue_text h3{
+    color: #34241c;
+    font-size: 20px;
+    font-weight: 700;
+    width: 180px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.peiyue_text h3 em{
+    position: absolute;
+    right: 1px;
+    top:0;
+    width: 26px;
+    height: 26px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -734px -124px no-repeat;
+}
+
+.peiyue_text p{
+    color: #34241c;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.peiyue_text .mml{
+    border-bottom: 1px dotted #b8a39a;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.peiyue_right{
+    width: 515px;
+    height: 696px;
+    position: absolute;
+    right: -15px;
+    top: -35px;
+    background: url("../../public/images/game_features/mml_side_3344401.png") no-repeat;
+}
+
+
+
+
+.five_body{
+    width: 100%;
+    height: 841px;
+    padding-top: 50px;
+    position: relative;
+    background: url("../../public/images/game_features/wanfa_bg_8d29f35.jpg") no-repeat;
+}
+.five_body h2{
+    width: 640px;
+    height: 98px;
+    margin: 0 auto 58px;
+    animation: wanfa 1s ease-out;
+    background: url("../../public/images/game_features/title3_528a9ed.png") no-repeat;
+}
+@-webkit-keyframes wanfa {
+    0%{
+        transform: translate(0,300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+.wf_1{
+    width: 100%;
+    height: 560px;
+}
+
+.wf_1_btn1,.wf_1_btn3{
+    width: 215px;
+    height: 340px;
+    margin-top: 73px;
+    margin-right: 3px;
+    float: left;
+}
+.wf_1_btn2{
+    float: left;
+    width: 659px;
+    height: 471px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../../public/images/game_features/pic_wrap_6c7a056.png") no-repeat;
+}
+
+.wf_1_btn{
+    width: 139px;
+    height: 139px;
+    margin-left: 6px;
+    margin-bottom: -68px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 139px;
+}
+.btn1{
+    float: right;
+    background: url("../../public/images/game_features/left_btn1_facceb5.png") 0 0 no-repeat;
+}
+.btn2{
+    float: left;
+    background: url("../../public/images/game_features/left_btn2_fc1784f.png") 0 0 no-repeat;
+}
+.btn3{
+    float: right;
+    background: url("../../public/images/game_features/left_btn3_48cc73e.png") 0 0 no-repeat;
+}
+.btn4{
+    float: left;
+    background: url("../../public/images/game_features/right_btn1_2498714.png") 0 0 no-repeat;
+}
+.btn5{
+    float: right;
+    background: url("../../public/images/game_features/right_btn2_a9701a7.png") 0 0 no-repeat;
+}
+.btn6{
+    float: left;
+    background: url("../../public/images/game_features/right_btn3_1de0182.png") 0 0 no-repeat;
+}
+.wf_1 em{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    transform: rotate(45deg);
+    left: 25px;
+    top: 26px;
+    transition: all .1s linear;
+   /* border: 4px solid #ffda68;*/
+}
+.wf_1 .wf_em_show{
+    position: absolute;
+    left: 22px;
+    top: 21px;
+    border: 4px solid #ffda68;
+}
+.wf_btm_show{
+    color: #ffda68;
+}
+.wf_1_content{
+    width: 535px;
+    height: 367px;
+    border: 1px solid #aa9987;
+    box-shadow: -1px 0 8px 0 #aa9987;
+    padding: 3px;
+    position: absolute;
+    top: 54px;
+    left: 59px;
+    background: url("../../public/images/game_features/LBS.jpg") 3px 3px no-repeat;
+}
+.wf_1_btn2 p{
+    position: absolute;
+    bottom: 17px;
+    left: 60px;
+    color: #644f26;
+    font-size: 14px;
+    margin: 0;
+}
+.wf_2{
+    height: 627px;
+}
+
+.fb_left{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 47px;
+    height: 627px;
+    background: url("../../public/images/game_features/wanfa_stick_left_648842c.png") no-repeat;
+}
+.fb_left,.fb_right{
+    position: absolute;
+    top:0;
+    right: 74px;
+    width: 47px;
+    height: 627px;
+    background: url("../../public/images/game_features/wanfa_stick_right_fe92266.png") no-repeat;
+}
+.fb_content{
+    width: 1012px;
+    height: 544px;
+    position: absolute;
+    left: 35px;
+    top: 42px;
+    background: url("../../public/images/game_features/wanfa_stick_bg_62c66af.png") no-repeat;
+}
+.fb_map{
+    width: 945px;
+    height: 491px;
+    margin-top: 25px;
+    margin-left: 32px;
+    position: relative;
+    background: url("../../public/images/game_features/map_b548424.png") no-repeat;
+}
+.fb_map a{
+    position: absolute;
+    width: 88px;
+    height: 137px;
+}
+
+.didian1{
+    left: 380px;
+    top: 50px;
+}
+.didian2{
+    left: 190px;
+    top: 270px;
+}
+.didian3{
+    left: 90px;
+    top: 170px;
+}
+.didian4{
+    left: 550px;
+    top: 300px;
+}
+.didian5{
+    left: 450px;
+    top: 250px;
+}
+.didian6{
+    left: 730px;
+    top: 170px;
+}
+
+.dd_name{
+    float: left;
+    width: 29px;
+    height: 130px;
+    background: url("../../public/images/game_features/map_name_bg_81595cb.png") no-repeat;
+}
+.dd_name span{
+    color: #644f26;
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    width: 14px;
+    margin: 20px auto;
+}
+.dd_name em{
+    width: 35px;
+    height: 138px;
+    background: url("../../public/images/game_features/map_name_box_6178968.png") 0 0 no-repeat;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+}
+.fb_em1{
+    animation: mapBox 3s linear infinite;
+}
+.fb_em2{
+    animation: mapBox 3s linear 1s infinite;
+}
+@-webkit-keyframes mapBox {
+    0%{
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    50%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3);
+        opacity: 0;
+    }
+}
+
+.dd_flag{
+    float: left;
+    width: 48px;
+    height: 55px;
+    margin-top: 40px;
+    margin-left: 8px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -686px 0px no-repeat;
+}
+.fb_map a p{
+    position: absolute;
+    width: 330px;
+    padding: 15px;
+    background: url("../../public/images/game_features/mask_6b7d844.png") repeat;
+    color: #fff;
+    font-size: 14px;
+    left: 50%;
+    margin-left: -200px;
+    top: 94px;
+    display: none;
+}
+.xinshou{
+    width: 1052px;
+    height:611px;
+    background: url("../../public/images/game_features/explore_bg_2819bfb.png") no-repeat;
+}
+.xs_box{
+    width: 1005px;
+    height:567px;
+    background: url("../../public/images/game_features/explre_8fc230a.png") no-repeat;
+    position: relative;
+    top:20px;
+    left: 23px;
+}
+.xs_box a{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -623px -606px no-repeat;
+}
+.xs_btn_show{
+     animation: xsshow 0.7s linear infinite alternate;
+}
+@-webkit-keyframes xsshow {
+
+    0% {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100%{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+.xs_btn1{
+    left: 833px;
+    bottom: 42px;
+}
+.xs_btn2{
+    right: 226px;
+    bottom: 42px;
+}
+.xs_btn3{
+    left: 620px;
+    bottom: 42px;
+}
+.xs_btn4{
+    left: 507px;
+    bottom: 42px;
+}
+.xs_btn5{
+    left: 400px;
+    bottom: 42px;
+}
+.xs_btn6{
+    left: 296px;
+    bottom: 42px;
+}
+.xs_btn7{
+    left: 180px;
+    bottom: 42px;
+}
+.xs_btn8{
+    left: 68px;
+    bottom: 42px;
+}
+.xs_btn9{
+    top: 200px;
+    left: 570px;
+}
+.xs_btn10{
+    right: 87px;
+    top: 142px;
+}
+.xs_btn11{
+    left: 493px;
+    top: 80px;
+}
+.xs_btn12{
+    left: 44px;
+    top: 26px;
+}
+.xs_btn13{
+    left: 473px;
+    top: 11px;
+}
+.xs_btn14{
+    right: 301px;
+    top: 11px;
+}
+.xs_btn15{
+    right: 164px;
+    top: 11px;
+}
+
+.xs_box_pic{
+    position: relative;
+    width: 832px;
+    height: 575px;
+    padding-top: 30px;
+    margin: 0 auto;
+    transition: opacity 0.3s linear;
+}
+.xs_box_pic span{
+    position: absolute;
+    right: -80px;
+    top: 30px;
+    width: 51px;
+    height: 54px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") 0px -676px no-repeat;
+}
+.xs_box_pic h3{
+    width: 115px;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 18px;
+    background: url("../../public/images/game_features/index_z_d844bc8.png") -734px -196px no-repeat;
+}
+.xs_box_pic img{
+    width: 832px;
+    height: 468px;
+    border: 2px solid #8b754b;
+}
+.xs_box_pic p{
+    line-height: 40px;
+    color: #35241c;
+    margin: 0;
+    display: none;
+}
+
+.footer{
+
+}
+
+
+
